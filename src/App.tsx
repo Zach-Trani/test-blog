@@ -1,9 +1,10 @@
 import React from 'react';
+import LandingPage from './Components/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      app.tsx
+      <LandingPage />
     </div>
   );
 }
