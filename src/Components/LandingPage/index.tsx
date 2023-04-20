@@ -1,3 +1,5 @@
+import styles from './landingpage.module.scss';
+
 /**
  *
  *
@@ -5,16 +7,16 @@
  */
 const LandingPage = () => {
   return (
-    <div className="h-100">
+    <div className={styles.landingPage}>
       {/* a href links */}
       <div className="d-flex flex-row">
-        <div className="p-2 bd-highlight bg-blue">About</div>
+        <div className="p-2 bd-highlight">About</div>
         <div className="p-2 bd-highlight">Work</div>
         <div className="p-2 bd-highlight">Blog</div>
       </div>
-      <div className="d-flex justify-content-center w-100 bg-secondary align-items-center pt-5">
-        <div className="d-flex flex-column bg-primary h-100 w-75">
-          <div className="">Hi, my name is</div>
+      <div className="d-flex justify-content-center w-100 align-items-center pt-5">
+        <div className="d-flex flex-column h-100 w-75">
+          <div className="bg-primary">Hi, my name is</div>
           <div>
             <div>Zachary Trani.</div>
             <div>I create websites and blog about all things engineering.</div>
